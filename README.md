@@ -5,7 +5,7 @@ This code is for paper titled "A fast sparse Bayesian learning algorithm using G
 
 The images in dataset are acquired from http://sparselab.stanford.edu/ and http://decsai.ugr.es/cvg/dbimagenes/.
 
-The function FastLaplace.m in tools is acquired from the origianl authors at http://www.dbabacan.info/publications.html. 
+The function FastLaplace.m in tools corresponds to the fast SBL algorithm based on Laplace priors, which is acquired from the origianl authors at http://www.dbabacan.info/publications.html. The paper is titled "Bayesian Compressive Sensing using Laplace Priors". 
 
 GGAMP-SBL.m corresponds to the algorithm 1 in paper titled "A GAMP based low complexity sparse bayesian learning algorithm".  
 
