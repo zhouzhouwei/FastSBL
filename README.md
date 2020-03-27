@@ -11,5 +11,5 @@ GGAMP-SBL.m corresponds to the algorithm 1 in paper titled "A GAMP based low com
 
 For comparison, sparseLab 2.1 and RVM V1.1 toolboxs are needed, which can be obtained from http://sparselab.stanford.edu/ and http://www.miketipping.com/downloads.htm, respectively. 
 
-If have any questions, please contact zhouwei@hust.edu.cn
+This code is implemented in Matlab 2019b. If have any questions, please contact zhouwei@hust.edu.cn
 
