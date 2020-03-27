@@ -5,9 +5,9 @@ This code is for paper titled "A fast sparse Bayesian learning algorithm using G
 
 The images in dataset are acquired from http://sparselab.stanford.edu/ and http://decsai.ugr.es/cvg/dbimagenes/.
 
-The function FastLaplace.m in tools is obtained from 
+The function FastLaplace.m in tools is acquired from the origianl authors at http://www.dbabacan.info/publications.html. 
 
-GGAMP-SBL corresponds to the algorithm 1 in paper "".  
+GGAMP-SBL.m corresponds to the algorithm 1 in paper titled "A GAMP based low complexity sparse bayesian learning algorithm".  
 
 For comparison, sparseLab 2.1 and RVM V1.1 toolboxs are needed, which can be obtained from http://sparselab.stanford.edu/ and http://www.miketipping.com/downloads.htm, respectively. 
 
