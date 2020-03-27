@@ -1,5 +1,5 @@
 function [x, iter] = La_FSBL(y, Phi, paras, InitVal)
-% Laplace prior corresponds to exponential hyperprior 
+% Laplace prior 
 
 % setting the initial values 
 if nargin < 4
@@ -35,9 +35,7 @@ D = Phi'*Phi ;
 Phiy = Phi'*y ;
 gamma = gamma_init*ones(n,1);
 lambda = lambda_init ;
-% betav = zeros(n,1);
-% betav = Phiy ;
-% betav = (lambda*eye(n)+D)\Phi'*y;
+
 
 errs = zeros(iters,1) ;
 theta = zeros(n,1);
@@ -57,7 +55,6 @@ for iter = 1:iters
     lambda = ( n1 + sqrt(n1^2+4*(norm(y-Phi*betav)^2+2*b0)*rho) ) / (2*rho) ;
     ga_den  = e0 + a./temp ;
     gamma = abs(theta)./sqrt(ga_den) ;
-%     gamma(abs(gamma)<1e-20) = 0 ;
     
     % stopping criterion
 %     lambdas(iter,1) = lambda ;

@@ -37,9 +37,6 @@ D = Phi'*Phi ;
 Phiy = Phi'*y ;
 gamma = gamma_init*ones(n,1);
 lambda = lambda_init ;
-% betav = zeros(n,1);
-% betav = Phiy ;
-% betav = (lambda*eye(n)+D)\Phi'*y;
 
 
 errs = zeros(iters,1) ;
@@ -60,14 +57,13 @@ for iter = 1:iters
     lambda = ( n1 + sqrt(n1^2+4*(norm(y-Phi*betav)^2+2*b0)*rho) ) / (2*rho) ;
     ga_den = a./temp + c1./gamma ;
     gamma = sqrt(2*d0 + abs(theta).^2) ./ sqrt(ga_den) ;
-%     gamma(gamma < 1e-4) = 0 ;
-    
+       
     % stopping criterion
 %     lambdas(iter,1) = lambda ;
 %     gammas = [gammas gamma];
 %     thetas = [thetas theta];
     if norm(theta)<1e-10       
-        fprintf(1,'La-FSBL Algorithm converged to 0, # iterations : %d \n',iter);
+        fprintf(1,'Ga-FSBL Algorithm converged to 0, # iterations : %d \n',iter);
         break;
     end
     errs(iter) = norm(theta - theta_old)/norm(theta);

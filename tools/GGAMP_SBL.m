@@ -1,5 +1,6 @@
 function x = GGAMP_SBL(y, A, paras, sigma_init,gamma_init)
-% the code for paper "A GAMP-Based Low Complexity Sparse Bayesian Learning Algorithm"
+% the code corresponds to Algorithm 1 in paper 
+% "A GAMP-Based Low Complexity Sparse Bayesian Learning Algorithm"
 [m,n] = size(A);
 if nargin<4
     gamma = 1*ones(n,1);
