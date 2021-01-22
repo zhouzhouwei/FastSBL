@@ -1,7 +1,7 @@
 # FastSBL
 A fast sparse Bayesian learning algorithm based on gaussian scale mixture model for regression problem
 
-This code is for paper titled "An efficient sparse Bayesian learning algorithm Based on Gaussian scale mixtures", which is submitted to TNNLS. 
+This code is for paper titled "An efficient sparse Bayesian learning algorithm Based on Gaussian-scale mixtures". 
 
 The images in dataset are acquired from http://sparselab.stanford.edu/ and http://decsai.ugr.es/cvg/dbimagenes/.
 
@@ -14,4 +14,6 @@ For comparison, sparseLab 2.1 and RVM V1.1 toolboxs are needed, which can be obt
 This code is implemented in Matlab 2019b. If have any questions, please contact zhouwei@hust.edu.cn
 
 If you use any part of our codes, please cite our paper. 
+
+Wei Zhou, Hai-Tao Zhang, and Jun Wang, “An Efficient Sparse Bayesian Learning Algorithm Based on Gaussian-Scale Mixtures,” IEEE Trans. Neural Netw. Learn. Syst., Accepted, 2020. DOI:10.1109/TNNLS.2020.3049056.
 
