@@ -29,7 +29,7 @@ Iterations = zeros(nums,Nmax,2);
 Nzeros_num = zeros(nums,Nmax,num_method+1) ;
 
 % main loop
-for jj=1:1
+for jj=1:Nmax
     n = Ns(jj);
     m = n*mnRatio;
     fprintf(2,'The matrix has %d basis functions:\n',n) ;
