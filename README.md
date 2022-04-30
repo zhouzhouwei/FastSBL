@@ -15,7 +15,7 @@ This code is implemented in Matlab 2019b. If have any questions, please contact 
 
 If you use any part of our codes, please cite our paper. 
 
-W. Zhou, H. -T. Zhang and J. Wang, "An Efficient Sparse Bayesian Learning Algorithm Based on Gaussian-Scale Mixtures," IEEE Transactions on Neural Networks and Learning Systems, doi: 10.1109/TNNLS.2020.3049056.
+W. Zhou, H. -T. Zhang and J. Wang, "An Efficient Sparse Bayesian Learning Algorithm Based on Gaussian-Scale Mixtures," IEEE Transactions on Neural Networks and Learning Systems, doi: 10.1109/TNNLS.2020.3049056. https://ieeexplore.ieee.org/abstract/document/9334415
  
  bibtex: 
 
